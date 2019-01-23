@@ -1,13 +1,13 @@
 html {
-    background-image: linear-gradient(#f5f5f5 , #000)
+    background-image: linear-gradient(#f5f5f5 , #000);
 }
 
 .container {
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap:  0.6em;
-    grid-template-rows: repeat(8, 400px); 
-    max-width: 1000px;
+    grid-template-rows: repeat(8, 350px); 
+    max-width: 60rem;
     margin: 0 auto;
 }
 
@@ -21,7 +21,7 @@ html {
 .photo:hover {
     transition: 0.2s ease; 
     opacity: 1;
-    border: 0.2em solid #000;
+    border: 0.4em solid rgb(85, 108, 128);
 }
 
 .photo1 {
@@ -67,4 +67,17 @@ html {
 
 .photo19 {
     grid-column: 3 / 4; 
+}
+
+
+.masonry {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    grid-template-rows:repeat(6, 300px) ;
+    grid-gap: 0.6em;
+}
+
+.item1,img{
+    grid-column: span 1/4;
+
 }
