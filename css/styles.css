@@ -9,73 +9,6 @@ h1 {
     font-family: 'Merriweather';
 }
 
-.container {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-gap:  0.6em;
-    grid-template-rows: repeat(8, 350px); 
-    max-width: 60rem;
-    margin: 0 auto;
-}
-
-.photo {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    opacity: 0.6;
-}
-
-.photo:hover {
-    transition: 0.2s ease; 
-    opacity: 1;
-    border: 0.4em solid rgb(85, 108, 128);
-}
-
-.photo1 {
-    grid-column: 1 / 4 ;
-}
-
-.photo2 {
-    grid-row:  3 / 4;
-}
-
-.photo3 {
-    grid-row: 2 / 4;
-}
-
-.photo8 {
-    grid-column: 1 / 4
-}
-
-.photo4 {
-    grid-column: 4 / 4 ;
-} 
-
-.photo8 {
-    grid-column: 2 / 4;
-}
-
-.photo15 {
-    grid-column: 1 / -1;
-}
-
-.photo16 {
-    grid-column: 4 / 4 ;
-    grid-row: 2 / 4 ;
-}
-
-.photo11 {
-    grid-column: 1 / -1 ;
-}
-
-.photo10 {
-    grid-column: 1 / 3;
-}
-
-.photo19 {
-    grid-column: 3 / 4; 
-}
-
 /************************************************ Images inserted method  ***********************************************/
 
 .masonry {
@@ -151,3 +84,74 @@ h1 {
 .item13 {
     grid-column: 2 / 2
 }
+
+
+/* background images inserted ------------------------- */
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:  0.6em;
+    grid-template-rows: repeat(8, 350px); 
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.photo {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.6;
+}
+
+.photo:hover {
+    transition: 0.2s ease; 
+    opacity: 1;
+    border: 0.4em solid rgb(85, 108, 128);
+}
+
+.photo1 {
+    grid-column: 1 / 4 ;
+}
+
+.photo2 {
+    grid-row:  3 / 4;
+}
+
+.photo3 {
+    grid-row: 2 / 4;
+}
+
+.photo8 {
+    grid-column: 1 / 4
+}
+
+.photo4 {
+    grid-column: 4 / 4 ;
+} 
+
+.photo8 {
+    grid-column: 2 / 4;
+}
+
+.photo15 {
+    grid-column: 1 / -1;
+}
+
+.photo16 {
+    grid-column: 4 / 4 ;
+    grid-row: 2 / 4 ;
+}
+
+.photo11 {
+    grid-column: 1 / -1 ;
+}
+
+.photo10 {
+    grid-column: 1 / 3;
+}
+
+.photo19 {
+    grid-column: 3 / 4; 
+}
+
